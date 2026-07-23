@@ -4,13 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body>
-    <header>
+<body class="open-sans-normal">
+    <header class="header secondary-bg">
+        <nav>
+            <h3 class="nav-title"><span class="text-primary">Alif</span>uzzaman</h3>
+            <ul>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href=""><button class="btn-primary">Hire Me </button></a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greetings dark-2">Hi, I am Alifuzzaman</h4>
+                <h1 class="banner-titles">Muhammad Alifuzzaman</h1>
+                <p class="banner-description">I am a developer I want to bea an AI Engineer</p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact Me</button>
+            </div>
+            <img class="banner-profile-pic" src="images/DSC_4086.jpg" alt="">
+        </div>
 
     </header>
     <main>
-        <p>Portfolio website</p>
+        <section class="about secondary-bg">
+            <h3 class="section-title">About me</h3>
+            <p class="section-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas sequi error at eos suscipit consectetur assumenda unde eaque, a ad porro vel cum odit necessitatibus, saepe itaque, nemo quam molestiae?</p>
+            <div class="about-items">
+               <!--.about-item*4>p.item-title+p.item-description--> 
+               <div class="about-item">
+                <p class="item-title">Name</p>
+                <p class="item-description">Alifuzzaman</p>
+               </div>
+               <div class="about-item">
+                <p class="item-title">Email</p>
+                <p class="item-description">nalifuzzaman@gmail.com </p>
+               </div>
+               <div class="about-item">
+                <p class="item-title">Date of birth</p>
+                <p class="item-description">10-3-2005</p>
+               </div>
+               <div class="about-item">
+                <p class="item-title">From</p>
+                <p class="item-description">Dinajpur</p>
+               </div>
+            </div>
+        </section>
 
     </main>
     <footer>
